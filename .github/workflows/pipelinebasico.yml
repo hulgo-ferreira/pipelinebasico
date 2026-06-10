@@ -1,7 +1,8 @@
 name: pipeline-basico
 
 on:
-  push
+  push: 
+    branches: main
 
 jobs:
   build:
